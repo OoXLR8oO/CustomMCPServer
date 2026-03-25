@@ -18,8 +18,7 @@ agent = Agent(
     Do not use any bold or italic formatting in your answers.
     """,
     output_type=float,
-    )
-
+)
 
 async def main() -> None:
     result = await agent.run("What is 4 times 7.5?")
